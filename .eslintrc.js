@@ -8,5 +8,8 @@ module.exports = {
     },
     "settings": {
       "import/extensions": ["js", "jsx"]
+    },
+    "globals": {
+      "fetch": false
     }
 };
