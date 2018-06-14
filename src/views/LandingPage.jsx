@@ -1,5 +1,12 @@
-import React from "react";
+import React from 'react';
 
-const LandingPage = () => <div>LandingPage</div>;
+import Auth from '../components/Auth';
+
+const LandingPage = () => (
+  <div>
+    <h1>Landing Page</h1>
+    <Auth />
+  </div>
+);
 
 export default LandingPage;
